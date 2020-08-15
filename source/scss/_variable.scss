@@ -1,0 +1,20 @@
+$primary-dark:#3F5D45;
+$primary-light:#FFE180;
+$light-gray: #EAF0ED;
+$dary-gray:#8DA291;
+
+$fz-s:16px;
+$fz-m:$fz-s*1.25;
+$fz-l:$fz-s*1.5;
+$fw-l:300;
+$fw-n:400;
+$fw-b:700;
+
+@mixin hide-text {
+    display: block;
+    background-position: center;
+    text-indent:101%;
+    overflow: hidden;
+    white-space:nowrap;
+    background-repeat: no-repeat;
+}
